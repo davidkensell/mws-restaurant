@@ -9,10 +9,7 @@ self.addEventListener('install', function(e) {
        'js/main.js',
        'js/dbhelper.js',
        'js/restaurant_info.js',
-       'css/styles.css',
-       'css/sm.css',
-       'css/md.css',
-       'css/lg.css'
+       'css/styles.css'
      ]);
      // other pages not as dependency
      return cache.addAll([
