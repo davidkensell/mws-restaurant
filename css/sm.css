@@ -2,30 +2,6 @@
 
 @media only screen and (max-width: 667px) {
 
-/* == Accessibility */
-.skip-link {
-	position: absolute;
-	top: -40px;
-	left: 0;
-	background #BF1722;
-	color: white;
-	padding: 8px;
-	z-index: 100;
-}
-
-.skip-link:focus {
-	top: 0;
-}
-
-/* == Navigation */
-#breadcrumb {
-    padding: 10px 40px 16px;
-    list-style: none;
-    background-color: #eee;
-    font-size: 17px;
-    margin: 0;
-    width: 100%;
-}
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
