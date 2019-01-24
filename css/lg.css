@@ -3,6 +3,21 @@
 /* Large (tablet, desktop) */
 @media only screen and (min-width: 992px) {
 
+/* == Accessibility == */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background #BF1722;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
