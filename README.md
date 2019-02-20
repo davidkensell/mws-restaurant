@@ -8,7 +8,7 @@ Browser and Internet access. The restaurant maps rely on [Mapbox](https://www.ma
 
 ### To launch
 
-Open index.html in a browser.
+Set localhost and port in dbhelper.js, then start server and open index.html in a browser.
 
 ### Features
 
